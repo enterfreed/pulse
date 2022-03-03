@@ -1,0 +1,26 @@
+.advantages{
+    min-height: 470px;
+    background-color: #f6f6f6;
+    padding: 70px 0 0 0;
+    &__block{
+        padding-top: 70px;
+        text-align: center;
+    }
+    &__subheader{
+        margin-top: 20px;
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__text{
+        margin-top: 20px;
+        color: #000;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__link{
+        color: $main-colour;
+    }
+    
+
+}
