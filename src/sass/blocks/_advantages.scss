@@ -1,25 +1,37 @@
-.advantages{
+.advantages {
     min-height: 470px;
     background-color: #f6f6f6;
     padding: 70px 0 0 0;
-    &__block{
+    &__block {
         padding-top: 70px;
         text-align: center;
     }
-    &__subheader{
+    &__subheader {
         margin-top: 20px;
         color: #000;
         font-size: 18px;
         font-weight: 700;
     }
-    &__text{
+    &__text {
         margin-top: 20px;
         color: #000;
         font-size: 14px;
         font-weight: 300;
     }
-    &__link{
-        color: $main-colour;
+    &__link {
+        color: $main-color;
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+
     }
     
 
